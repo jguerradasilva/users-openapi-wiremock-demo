@@ -238,7 +238,7 @@ public class WireMockUsersApiTest {
         // Valida a resposta
         assertEquals(201, response.statusCode());
         assertTrue(response.body().contains("Pedro Oliveira"));
-        assertTrue(response.body().contains("\"id\":3"));
+        assertTrue(response.body().contains("\"id\": 3") || response.body().contains("\"id\":3"));
         
         System.out.println("✅ Status: " + response.statusCode());
         System.out.println("📤 Request: " + requestBody);
