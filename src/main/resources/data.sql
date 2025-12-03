@@ -9,5 +9,5 @@ INSERT INTO users (id, name, email, age, phone, created_at, updated_at) VALUES
 (4, 'Ana Costa', 'ana@email.com', 32, '(11) 66666-6666', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP()),
 (5, 'Carlos Mendes', 'carlos@email.com', 45, '(11) 55555-5555', CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP());
 
--- Configurar sequence para próximos IDs
-ALTER SEQUENCE users_seq RESTART WITH 6;
+-- Configurar identity para próximos IDs (H2 2.x syntax for IDENTITY columns)
+ALTER TABLE users ALTER COLUMN id RESTART WITH 6;
