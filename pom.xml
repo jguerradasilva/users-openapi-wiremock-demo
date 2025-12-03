@@ -29,7 +29,7 @@
         <!-- Versão do SpringDoc para OpenAPI -->
         <springdoc.version>2.2.0</springdoc.version>
         <!-- Versão do WireMock para testes -->
-        <wiremock.version>3.0.1</wiremock.version>
+        <wiremock.version>3.9.2</wiremock.version>
     </properties>
     
     <dependencies>
@@ -83,8 +83,8 @@
         
         <!-- WireMock: para simular serviços HTTP em testes -->
         <dependency>
-            <groupId>com.github.tomakehurst</groupId>
-            <artifactId>wiremock-jre8</artifactId>
+            <groupId>org.wiremock</groupId>
+            <artifactId>wiremock-standalone</artifactId>
             <version>${wiremock.version}</version>
             <scope>test</scope>
         </dependency>
