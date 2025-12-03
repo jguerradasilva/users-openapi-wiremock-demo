@@ -31,6 +31,12 @@ spring:
     properties:
       hibernate:
         format_sql: true  # Formata o SQL para melhor legibilidade
+    defer-datasource-initialization: true  # Executa data.sql após criação do schema
+  
+  # Configuração de inicialização do SQL
+  sql:
+    init:
+      mode: always  # Sempre executa scripts de inicialização
 
 # Configurações do SpringDoc (OpenAPI/Swagger)
 springdoc:
