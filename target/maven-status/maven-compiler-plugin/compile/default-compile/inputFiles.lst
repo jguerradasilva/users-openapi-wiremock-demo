@@ -1,0 +1,10 @@
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\service\UserService.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\config\OpenApiConfig.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\controller\UserController.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\dto\UserResponse.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\controller\GlobalExceptionHandler.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\repository\UserRepository.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\model\User.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\dto\CreateUserRequest.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\UsersApiApplication.java
+C:\Users\jguer\users-openapi-wiremock-demo\src\main\java\com\example\usersapi\dto\UpdateUserRequest.java
